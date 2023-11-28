@@ -1,0 +1,132 @@
+/*css part start*/
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:bisque;
+    font-family: "Trirong", serif;;
+    
+}
+/* container class style */
+.container{
+    max-width: 1000px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+   
+   
+
+
+/* image style */
+.profile-image{
+    width: 120px;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+/* header bio graphy style */
+.header-bio{
+    float: left;
+    padding: 10px;
+}
+/* heading style */
+h1,h2,h3,h4,h5,h6{
+    color:black;
+}
+/* header contact part  */
+.header-contact{
+    float: right;
+    padding: 10px;
+}
+.header-contact a{
+ text-decoration: none;
+ color:blue;
+}
+.header-contact a:hover{
+    color:red;
+    text-decoration: underline;
+}
+/* div clear most important */
+.div-clear{
+    clear: both;
+}
+/* horizontal part style */
+hr{
+    border: 4px solid rgb(71, 42, 42);
+    border-width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* main part */
+/*personal section start*/
+
+
+
+.content{
+    margin: 20px;
+
+}
+.div-left{
+width: 40%;
+float: left;
+}
+.div-right{
+    width: 60%;
+    float: left;
+}
+    #horizontal{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+  
+}
+   /* reference part style  */
+.ref-middle{
+    font-weight: bold;
+    width:30% ;
+    float:left;
+    text-decoration: none;
+}
+.ref-middle a{
+    text-decoration: none;
+    color: black;
+}
+.ref-middle a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.ref-side{
+    width: 20%;
+    float:right;
+    font-weight: bold;
+}
+.ref-side a{
+    color: black;
+    text-decoration: none;
+
+}
+.ref-side a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+/* footer part design */
+.bottom-container{
+    background-color: rgb(39, 39, 78);
+    text-align: center;
+   padding: 20px;
+    
+}
+.bottom-container a{
+    color:black;
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    color:aqua;
+}
